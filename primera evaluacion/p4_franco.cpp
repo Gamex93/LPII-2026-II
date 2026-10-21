@@ -1,30 +1,22 @@
 #include <iostream>
+#include <string>
 
-//realice un programa que reciba la tasa del euro del dia bcv en bs, y un valor monetario en euros, y retorne la conversion a bolivares
-//con dos decimales. al terminar debe preguntar si desea otra conversion (s/n) y repetir mientras la respuesta sea si.
+// realice un programa que calcule el promedio de 10 notas ingresadas por teclado, validando que cada nota este entre 1 y 20
 
 using namespace std;
 
-int main(){
-	float tasaBcv = 0;
-	float valorEuro = 0;
-	float conversion = 0;
-	char respuesta;
-	
-	do {
-		cout<<"Escriba la tasa BCV del dia: "<<endl;
-		cin>>tasaBcv;
-		
-		cout<<"Escriba un valor monetario en Euros: "<<endl;
-		cin>>valorEuro;
-		
-		conversion = tasaBcv * valorEuro;
-		
-		cout<<"La conversion a bolivares seria: "<<conversion<<" Bs. "<<endl;
-		cout<<"Desea realizar otra conversion? S/N: "<<endl;
-		cin>>respuesta;
-			
-	} while(respuesta == 'S' || respuesta == 's');
-
-	return 0;
+int main() {
+    string nombre = "Jean Franco";
+    float nota;
+    float suma = 0;
+    float promedio;
+    
+    for (int i = 1; i <= 10; i++) {
+        cout << "Ingrese la nota " << i << endl;
+        cin >> nota;
+        
+        suma += nota;
+    }
+    
+    return 0;
 }
