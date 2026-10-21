@@ -12,8 +12,8 @@ int main() {
     float promedio;
     
     for (int i = 1; i <= 10; i++) {
-        cout << "Ingrese la nota " << i << endl;
-        cin >> nota;
+        cout<<"Ingrese la nota "<<i<<endl;
+        cin>>nota;
         
         suma += nota;
     }
