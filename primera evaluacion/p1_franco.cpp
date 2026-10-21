@@ -10,10 +10,10 @@ int main() {
     int sumaImpares = 0;
     
     do {
-        cout << "Ingrese un numero entero N mayor o igual a 1:" << endl;
-        cin >> n;
+        cout<<"Ingrese un numero entero N mayor o igual a 1:"<<endl;
+        cin>>n;
         if (n < 1) {
-            cout << "Error, el numero debe ser mayor o igual a 1" << endl;
+            cout<<"Error, el numero debe ser mayor o igual a 1"<<endl;
         }
     } while (n < 1);
     
@@ -22,8 +22,8 @@ int main() {
         sumaImpares += (2 * i) - 1;
     }
     
-    cout << "La suma de los " << n << " primeros pares es: " << sumaPares << endl;
-    cout << "La suma de los " << n << " primeros impares es: " << sumaImpares << endl;
+    cout<<"La suma de los "<<n<<" primeros pares es: "<<sumaPares<<endl;
+    cout<<"La suma de los "<<n<<" primeros impares es: "<<sumaImpares<<endl;
     
     return 0;
 }
