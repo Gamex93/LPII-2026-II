@@ -2,6 +2,7 @@
 
 //realice un programa que reciba la tasa del euro del dia bcv en bs, y un valor monetario en euros, y retorne la conversion a bolivares
 //con dos decimales. al terminar debe preguntar si desea otra conversion (s/n) y repetir mientras la respuesta sea si.
+//a
 
 using namespace std;
 
